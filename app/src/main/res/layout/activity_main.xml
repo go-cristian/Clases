@@ -28,8 +28,8 @@
       android:layout_width="match_parent"
       android:layout_height="wrap_content"
       android:hint="@string/login_password_wrapper"
-      app:layout_constraintStart_toStartOf="parent"
       app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintStart_toStartOf="parent"
       app:layout_constraintTop_toBottomOf="@+id/login_username_wrapper"
       >
 
@@ -42,13 +42,33 @@
 
   </android.support.design.widget.TextInputLayout>
 
+  <TextView
+      android:id="@+id/login_singup_link"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="@string/login_singup_link"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toBottomOf="@+id/login_password_wrapper"
+      />
+
+  <TextView
+      android:id="@+id/login_forgot_link"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="@string/login_forgot_link"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toBottomOf="@+id/login_singup_link"
+      />
+
   <Button
       android:id="@+id/login_init"
       android:layout_width="match_parent"
       android:layout_height="wrap_content"
       android:layout_marginBottom="8dp"
-      app:layout_constraintBottom_toBottomOf="parent"
       android:text="@string/login_init"
+      app:layout_constraintBottom_toBottomOf="parent"
       />
 
 </android.support.constraint.ConstraintLayout>

@@ -3,5 +3,15 @@
   <string name="login_username_wrapper">Username</string>
   <string name="login_password_wrapper">Password</string>
   <string name="login_init">Login</string>
+  <string name="login_singup_link">Sing Up</string>
+  <string name="login_forgot_link">Forgot Password</string>
+  <string name="signup_username">UserName</string>
+  <string name="signup_username_wrapper">UserName</string>
+  <string name="signup_email_wrapper">Email</string>
+  <string name="signup_password_wrapper">PassWord</string>
+  <string name="signup_password_confirm_wrapper">Password Confirm</string>
+  <string name="signup_button">Sign Up</string>
+  <string name="forgot_email_wrapper">Email Recovery</string>
+  <string name="forgot_button">Recovery Password</string>
 
 </resources>
